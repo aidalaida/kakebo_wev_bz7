@@ -1,4 +1,6 @@
 venv/
-__pycache__/
-,env/
-.env_templates/
+**/__pycache__/
+.env/
+movimientos.db
+.vscode/
+config.py
