@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 
-{% block titulo %}Nuevo{% endblock %}
+{% block titulo %}Modificar{% endblock %}
 
 {% block contenido %}
-<h1>Nuevo movimiento  </h1>
-<form action="nuevo" method="post">
+<h1>Modificar movimiento  </h1>
+<form action="{{ form.id.data }}" method="post">
     <fieldset class="container">
         {{ form.hidden_tag() }}
 
@@ -53,4 +53,3 @@
 </form>
 
 {% endblock %}
-
